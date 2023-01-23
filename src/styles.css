@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #21222A;
+    color: white;
+}
+
+.app {
+    width: 65%;
+    margin: 35px auto;
+    background-color: #25262f;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.29);
+}
+
+.info {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info a {
+    text-decoration: none;
+    color: white;
+}
+.mailink {
+    color: black!important;
+}
+
+.info .perImg {
+    width: 100%;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.info h3 {
+    margin-bottom: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.info p {
+    margin-top: 3px;
+}
+
+.info button {
+    position: relative;
+    padding: 5px 25px;
+    margin: 0px 7px;
+    font-size: 16px;
+    font-family: cursive;
+    border-radius: 5px;
+    border: 0;
+}
+
+.mail {
+    position: absolute;
+    bottom: 4px;
+    left: 5px;
+}
+.linked {
+    position: absolute;
+    bottom: 7px;
+    left: 5px;
+}
+
+.info button:last-child {
+    background-color: rgba(33, 33, 124, 0.932);
+}
+
+.about,
+.interests {
+    padding: 10px 20px 0px;
+    text-align: justify;
+}
+
+.about p,
+.about h3,
+.interests p,
+.interests h3 {
+    margin: 5px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1b1b25;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 0px 0px 7px 7px;
+}
+
+.footer img {
+    height : 30px;
+}
+
+@media screen and (min-width:768px) {
+    .app{
+        width: 45%;
+    }
+}
+@media screen and (min-width:998px) {
+    .app{
+        width: 30%;
+    }
+}
